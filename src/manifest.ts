@@ -9,7 +9,7 @@ import {
 export const ACME_TASKS_MANIFEST: PluginManifest = {
   sdkApiVersion: SDK_API_VERSION,
   namespace: 'acme.tasks',
-  version: '0.1.0',
+  version: '0.2.0',
   displayName: 'Tasks',
   description:
     'Private to-do lists for each user in each of their organizations, with their latest notes from the Notes module next to them',
