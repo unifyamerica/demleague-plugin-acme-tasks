@@ -1,15 +1,11 @@
-import {
-  type PluginManifest,
-  SDK_API_VERSION,
-} from '@unifyamerica/demleague-plugin-sdk/manifest';
+import { type PluginManifest } from '@unifyamerica/demleague-plugin-sdk/manifest';
 
 // ℹ️ Everything this plugin needs from the platform. The core team approves its permissions, ability grants, UI
 // slots and calls to other modules in the API's namespace registry. Imported by both the server code and the
 // UI (`src/ui`), hence the NestJS-free `@unifyamerica/demleague-plugin-sdk/manifest`.
 export const ACME_TASKS_MANIFEST: PluginManifest = {
-  sdkApiVersion: SDK_API_VERSION,
   namespace: 'acme.tasks',
-  version: '0.2.1',
+  version: '0.2.2',
   displayName: 'Tasks',
   description:
     'Private to-do lists for each user in each of their organizations, with their latest notes from the Notes module next to them',
